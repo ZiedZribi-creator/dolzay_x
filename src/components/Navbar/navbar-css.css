@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px ;
+  padding: 0px 25px ;
+  background-color: #D32222 ;
+  color: white ;
+}
+.logo{
+    font-size: 25px ;
+    font-family: Lucida Console ;
+}
+ul{
+  display: flex;
+  list-style-type: none ;
+  font-family: 'Droid Arabic Kufi', serif;
+
+}
+ul li{
+
+    text-decoration: none ;
+    margin-right: 17px ;
+    line-height: 30px ;
+    font-weight: 600 ;
+}
+ul li:last-child {
+    margin-right: 0px ;
+    color : #D32222 ;
+    background-color: white ;
+    padding: 5px 15px ;
+    border-radius: 5px ;
+}

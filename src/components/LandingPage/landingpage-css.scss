@@ -1,0 +1,63 @@
+.landing-page-container{
+  // height: 100% ;
+  // width: 100% ;
+  // padding: 0 20px ;
+  width: 100% ;
+  .front-section{
+    display: flex ;
+    width: 100% ;
+    margin-top: 50px ;
+    &-image{
+      width: 55% ;
+      img {
+        width: 100% ;
+      }
+    }
+    &-text{
+      width: 43% ;
+
+
+      h1{
+        font-size: 55px ;
+        width: 100% ;
+        padding-bottom: 20px ;
+        border-bottom: 10px solid #D32222 ;
+        margin-bottom: 20px ;
+        text-transform: uppercase;
+        span{
+          color : #D32222 ;
+        }
+      }
+      h2{
+        font-size: 20px ;
+        font-family: 'Droid Arabic Kufi', serif;
+      }
+      button{
+        font-family: 'Droid Arabic Kufi', serif;
+        margin-top: 20px ;
+        background-color: #D32222 ;
+        width: 200px ;
+        color : white ;
+        font-size: 15px ;
+        font-style: bold ;
+        padding: 10px 25px ;
+        border-radius: 25px ;
+        border : none ;
+
+      }
+    }
+  }
+  .why-ecom-title{
+    width: 100% ;
+    text-align: center;
+    margin: 40px 0px ;
+
+    h1{
+      font-size: 40px ;
+      text-transform: uppercase;
+      span{
+        color : #D32222 ;
+      }
+    }
+  }
+}
